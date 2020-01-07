@@ -1,0 +1,229 @@
+.head-wrapper {
+  margin-top: 1%;
+  padding-top: 0px;
+
+
+    margin-bottom: 5px;
+    justify-content: center;
+}
+
+.head-wrapper ul{
+  list-style: none;
+  align-content: center;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-color: none;
+}
+
+a:visited{
+  color: white;
+}
+
+.bash:hover {
+
+  color:orange;
+
+}
+
+header{
+  text-align: center;
+}
+
+
+
+body{
+
+  background-color: black;
+  color: white;
+  font-family: "Courier", monospace;
+  text-align: left;
+
+}
+
+.name{
+  color: red;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 3%
+  bottom: 0px;
+}
+
+.name h2{
+  margin-bottom: 0px;
+}
+
+.about-wrapper{
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+
+
+.archive-artwork{
+  text-align: left;
+  font-weight: bold;
+  color: red;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-indent: 0.2%;
+}
+
+.projects-list img{
+  width: 80%;
+  height: auto;
+  left: 10%;
+}
+
+.projects-list {
+  justify-content: center;
+  margin-left: 10%;
+}
+
+
+
+.RETURN{
+  text-align: left;
+  margin-top: 0px;
+}
+
+.cursor{
+  top: 0px;
+  margin-top: 0px;
+}
+
+
+.avi {
+  float: left;
+  margin-right: 1%;
+  margin-top: 1%;
+  width : 100%;
+  max-width: 300px;
+  max-height: 300px;
+  height: auto;
+}
+
+a:visited{
+  color:black;
+}
+
+.RETURN{color:white;}
+
+.RETURN:hover{
+  color: orange;
+}
+
+a:hover{
+  color: black;
+}
+.cursor{
+
+  text-align: left;
+
+}
+
+.bash{
+  color: white;
+}
+
+
+.archive-artwork{
+  text-align: left;
+  font-weight: bold;
+  color: red;
+}
+
+ul{
+  display:flex;
+  list-style: none;
+  margin-top: 0px;
+  padding-left: 0px;
+}
+
+.socials-wrapper{
+  height: 100px;
+  width: 98%;
+}
+
+.twitter img{
+  width: 75%;
+  min-width: 20px;
+  height: auto;
+
+  margin-top: 19%;
+}
+
+.socials-wrapper li{
+  width: 2%;
+  min-width: 50px;
+}
+
+.email p {
+  color: red;
+  text-align: center;
+  top: 0px;
+  margin-top: 0px;
+  margin-bottom: 3%;
+  font-weight: bold;
+
+}
+
+.socials-wrapper ul{
+  justify-content: center;
+}
+
+.github img{
+  width: 70%;
+  min-width: 20px;
+  height: auto;
+
+  margin-top: 15%;
+  margin-left: 90%
+}
+
+
+ .instagram img{
+  width: 90%;
+  min-width: 50px;
+
+  height: auto;
+  margin-left: 30%;
+  padding-bottom: 50%;
+}
+
+.copyright{
+  position: absolute;
+  bottom: 2px;
+  right: 5px;
+  padding-left: 1em;
+}
+
+@media (max-width: 480px) and (min-width: 240px){
+
+
+  press p { width :100%; }
+  .about{
+
+    text-align: center;
+  }
+
+  .about img{
+      margin-bottom: 3%;
+    }
+
+  .copyright{
+    position: relative;
+  }
+
+  .socials-wrapper{
+    height: 100px;
+    width: 90%;
+  }
+
+  .email p{
+    margin-top: 0px;
+  }
+
+})

@@ -1,0 +1,148 @@
+body {
+  background-color: black;
+  font-size: 20px;
+}
+
+
+header {
+  text-align: center;
+}
+p{
+  font-family: "Courier", monospace;
+  color: white;
+}
+
+
+
+a{
+  text-decoration: none;
+  text-decoration-color: none;
+  color: none;
+  height: 19.2px;
+}
+
+a:hover{
+  color:orange;
+}
+
+.projects:hover{
+  color:orange;
+}
+
+.fetching {
+
+   visibility: hidden;
+   color: red;
+   font-family: "Courier", monospace;
+   font-weight: bold;
+
+}
+
+.fetching2 {
+
+   visibility: hidden;
+   color: red;
+   font-family: "Courier", monospace;
+   font-weight: bold;
+
+}
+
+.about:hover{
+  color:orange;
+}
+
+a:visited{
+  color: black;
+}
+.ARTWORK:hover{
+  color: orange;
+}
+
+.ARTWORK{
+  margin-bottom: 0;
+}
+
+ul{
+  height: 25px;
+}
+
+.about{
+  padding-left: 0.7%;
+  margin-bottom: 0;
+  bottom: 0;
+}
+
+.cursor{
+  margin-bottom: 0px;
+}
+.reel{
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+
+.art-portal{
+  bottom: 0px;
+  height: 2.8%
+}
+
+.projects{
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+
+.copyright{
+  position: absolute;
+  bottom: 2px;
+  right: 5px;
+  padding-right: 0.8em;
+  padding-left: 1em;
+}
+
+.clock{
+  left: 5px;
+}
+
+.link1 ul{
+  display: flex;
+  padding-left: 0px;
+  margin-bottom: 0.2%;
+}
+
+p{
+  margin-top: 0px;
+}
+
+.link1{
+  margin-left: 0px;
+  margin-right:0px;
+}
+
+
+.BIU img{
+  mix-blend-mode: difference;
+  background-color: black;
+  background-blend-mode: difference;
+
+
+}
+
+ul{
+  bottom: 0px;
+}
+
+.art-portal{
+  bottom: 0px;
+}
+
+@media (max-width: 480px) and (min-width: 240px){
+
+  .about{
+    padding-left: 3.5%;
+  }
+
+  body{
+    font-size: 18px;
+  }
+
+
+}

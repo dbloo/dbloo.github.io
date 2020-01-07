@@ -1,0 +1,71 @@
+.fetching{
+  color:red;
+  font-weight: bold;
+}
+
+body {
+  background-color: black;
+
+}
+
+
+header {
+  text-align: center;
+}
+p{
+  font-family: "Courier", monospace;
+  color: white;
+}
+
+
+
+a{
+  text-decoration: none;
+  text-decoration-color: none;
+  color: none;
+  height: 19.2px;
+}
+
+a:visited{
+  color: black;
+}
+
+
+.ARTWORK{
+  margin-bottom: 0;
+}
+
+ul{
+  height: 25px;
+}
+
+.path{
+  padding-left: 10px;
+}
+
+.copyright{
+  position: absolute;
+  bottom: 2px;
+  right: 5px;
+  padding-right: 0.8em;
+  padding-left: 1em;
+}
+
+.clock{
+  left: 5px;
+}
+
+.link1 ul{
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+p{
+  margin-top: 0;
+}
+
+.link1{
+  margin-left: 0;
+  margin-right:0;
+}

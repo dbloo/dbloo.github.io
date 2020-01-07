@@ -1,0 +1,57 @@
+body {
+  background: black;
+  font-family: "Courier", monospace;
+}
+
+
+#init{
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20%;
+}
+
+#a{
+  color: white;
+  font-weight: bold;
+}
+
+#i-b{
+  color: blue;
+}
+
+#i-g{
+  color:#40ff00;
+}
+
+span {
+  color: red;
+}
+
+#console{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    margin-top: 2%;
+}
+
+@media (max-width: 480px) and (min-width: 240px){
+  press li { width :100%; }
+
+#console{ margin-top: 10%;}
+
+#init {
+  margin-top: 25%;
+}
+
+
+})
+
+#container {
+  text-align: left;
+  margin-top: 0px;
+  }
+
+  #i-k{
+    color:purple;
+  }
