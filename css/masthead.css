@@ -144,5 +144,14 @@ ul{
     font-size: 18px;
   }
 
+  a{
+    text-decoration: none;
+    text-decoration-color: none;
+    color: none;
+  }
+  a:visited{
+    color:black;
+  }
+
 
 }
