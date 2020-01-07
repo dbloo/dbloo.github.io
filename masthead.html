@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>DDD.BASH -- 06X18</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+
+  <link rel="stylesheet" href="css/masthead.css">
+
+  <script type="text/javascript">
+
+    function blinktext(target) {
+      var f = document.getElementById("cursor")
+      setInterval(function (){
+        f.style.visibility = (f.style.visibility == 'hidden' ? '': 'hidden');
+      }, 1000)
+    }
+
+  </script>
+
+  <script type="text/javascript">
+    function redirectDelay(archive)
+    {
+        if(archive === 'artwork'){
+          window.location.href = "art.html";//sets the href(link) target
+
+        }else {
+          window.location.href =  "about.html";
+
+        }
+
+    }
+
+    function displayFetching(archive) {
+      var fetching;
+
+      if(archive === 'artwork'){
+
+        fetching = document.getElementById("fetching-archive-artwork");
+        fetching.style.visibility = ('visible');
+        document.getElementById('fetching-archive-about').style.visibility = ('hidden');
+
+        setTimeout(function(){ redirectDelay(archive); },1500) //delays the redirect by 1.5s
+
+
+      }else{
+
+        fetching = document.getElementById("fetching-archive-about");
+        fetching.style.visibility = ('visible');
+        document.getElementById('fetching-archive-artwork').style.visibility = ('hidden');
+
+        setTimeout(function(){ redirectDelay(archive); },1500)//delays the redirect by 1.5s
+
+      }
+    }
+
+    function updateCursor(){
+      var cursor = document.getElementById("cursor");
+      cursor.style.top = 10;
+
+    }
+
+    yes_js_login = function(){
+      return false;
+    }
+
+    function disableHREF(){
+
+        if (yes_js_login === false){
+
+        }
+    }
+
+  </script>
+
+  <body onload=" blinktext();">
+
+</head>
+
+<div class = "head-wrapper">
+  <header>
+  <p>DROPDEADDOM -- BASH -- 06X18</p>
+
+</header>
+
+<body>
+<div class="link1">
+<ul class = art-portal>
+  <li><p id = "cursor" class = "cursor"> > </p></li>
+  <a href="#" onclick = "displayFetching('artwork')" onclick = "return yes_js_login();" id = "nav1">
+
+    <li>
+      <p class = "ARTWORK">[ARTWORK] <span class ="fetching" id = "fetching-archive-artwork">FETCHING ARCHIVE...</span> </p>
+    </li>
+
+  </a>
+</ul>
+
+  <a href="#" onclick="displayFetching('about');" onclick = "return yes_js_login();" id = "nav2">
+
+    <p class = "about">[ABOUT]<span class ="fetching2" id = "fetching-archive-about"> FETCHING ARCHIVE...</span></p>
+</a>
+
+  <!-- <p class = "reel">[FILM REEL]</p> -->
+  <!-- <a href="projects.html" class = "projects-nav"><p class = "projects">[PROJECTS]</p></a> -->
+</div>
+
+</body>
+</div>
+
+<footer>
+<div class="copyright">
+   <p>©COPYRIGHT BULLS i URBAN ALL RIGHTS RESERVED</p>
+  </div>
+
+
+</footer>
